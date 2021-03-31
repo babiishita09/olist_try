@@ -34,7 +34,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],
                             'content': 'width=device-width, initial-scale=1.0'}]
                 )
 
-
+server=app.server
 # Layout section: Bootstrap (https://hackerthemes.com/bootstrap-cheatsheet/)
 # ************************************************************************
 app.layout=dbc.Container(style={'backgroundColor':'#4DE4FC'},
